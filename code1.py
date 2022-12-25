@@ -1,6 +1,8 @@
 import csv
 from collections import OrderedDict
 
+#for converting .csv to .txt
+
 inputFile = open('Resume.csv', 'r' ,encoding='utf-8')
 inputReader = csv.reader(inputFile)
 
